@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+}
+html,
+body {
+  display: flex;
+}
+.pancake {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/pancake.png");
+  background-size: cover;
+  background-position: center;
+}
+.plate {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-image: url("../images/plate.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.pancakes {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.plates {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 95;
+}
+.plate11 {
+  left: 200px;
+}
+.plate12 {
+  left: 300px;
+}
+.plate13 {
+  left: 400px;
+}
+.pancakes1 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+.plate21 {
+  right: 0;
+  top: 0;
+}
+.plate22 {
+  right: 0;
+  top: 200px;
+}
+.plate23 {
+  right: 0;
+  top: 400px;
+}
+.pancakes2 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.plate31 {
+  left: 35px;
+  top: 200px;
+}
+.plate32 {
+  left: 200px;
+  top: 200px;
+}
+.plate33 {
+  left: 370px;
+  top: 200px;
+}
+.pancakes3 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.pancakes3 .pancake {
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
